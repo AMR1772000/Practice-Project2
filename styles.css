@@ -1,0 +1,105 @@
+html{
+    width: 1440px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.All{
+
+width:600px;
+height:500px;
+display: flex;
+position: absolute;
+top:17%;
+right:30%;
+}
+.image {
+    width:300px;
+    height: 500px;
+    border-radius: 10px;
+}
+.image img {
+    width:100%;
+    height: 100%;
+    border-radius:  10px 0 0 10px;
+    object-fit: cover;
+}
+.content{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 0 10px 10px 0; 
+}
+.perfume p{
+    color:hsl(228, 12%, 48%);
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.header h1{
+    color:hsl(212, 21%, 14%);
+    margin-left: 25px;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family:'Fraunces';
+}
+
+.paragraph p{
+    font-family: 'Montserrat';
+    color:hsl(228, 12%, 48%);
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.cost .new-price {
+
+    color: hsl(158, 36%, 37%) ;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Fraunces'
+}
+.cost .original-price {
+    font-size:14px;
+    
+    color:hsl(228, 12%, 48%);
+    margin-left: 10px;
+    text-decoration: line-through;
+    
+}
+.press button{
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.press button:hover{
+    background-color: hsl(158, 36%, 17%);
+}
+.press button img{
+    margin-right: 10px;
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('E:\work\Practice Project2\Fraunces (1)\Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('E:\work\Practice Project2\Montserrat (1)\static\Montserrat-Regular.ttf') format('truetype');
+    font-weight:500,700;
+  }
+  
